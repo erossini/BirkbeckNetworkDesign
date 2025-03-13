@@ -1,4 +1,4 @@
-# Network Design for Computer Science 3rd year
+# Network Design
 
 A computer network needs to be designed and simulated using Cisco Packet Tracer for a medium sized business that has three sites, London, Birmingham and Manchester. Each site requires 802.11 wireless access for their users (staff, guests) and IP Telephony. The wireless network should allow for up to 100 guest users. The specific requirements of the network by site are as follows:
 
@@ -15,7 +15,3 @@ A public IP address block **192.0.2.0/24** is available for the purpose of the W
 3. Describe how you would connect the three sites together cost effectively in order to form a WAN. You may show the connections in the form of a logical topology diagram. Explain your chosen WAN technology stating the possible bandwidths and expected throughput.
 
 For this part you need to include a table showing the addressing scheme, Cisco Packet Tracer simulation (.pkt file) and a topology diagram showing the WAN connections, each supported by brief explanations and screenshots where necessary.
-
-## Screenshot
-
-![image](https://github.com/user-attachments/assets/0f8f2355-0454-444f-ab5d-52256f218457)
