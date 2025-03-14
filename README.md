@@ -16,6 +16,6 @@ A public IP address block **192.0.2.0/24** is available for the purpose of the W
 
 For this part you need to include a table showing the addressing scheme, Cisco Packet Tracer simulation (.pkt file) and a topology diagram showing the WAN connections, each supported by brief explanations and screenshots where necessary.
 
-## Screenshot
+## Network example
 
-![image](https://github.com/user-attachments/assets/0f8f2355-0454-444f-ab5d-52256f218457)
+![image](https://github.com/user-attachments/assets/ce914d48-77a9-47cc-89fd-22b8910f3e74)
