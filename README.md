@@ -31,6 +31,23 @@ For this part you need to include a table showing the addressing scheme, Cisco P
 - Add the appropriate VLAN (for example for the departments). Avoid using VLAN 1 or 99.
 - Redundancy is required wherever is possible and necessary
 
+## Example of IP table
+
+| Device     | Interface    | IP Address      | Subnet Mask     | Default Gateway |
+|------------|--------------|-----------------|-----------------|-----------------|
+| R1         | G0/0         | 209.165.200.225 | 255.255.255.248 | N/A             |
+|            | S0/0/0 (DCE) | 10.1.1.1        | 255.255.255.252 |                 |
+| R2         | S0/0/0       | 10.1.1.2        | 255.255.255.252 | N/A             |
+|            | S0/0/1 (DCE) | 10.2.2.2        | 255.255.255.252 |                 |
+| R3         | G0/1         | 172.16.3.1      | 255.255.255.0   | N/A             |
+|            | S0/0/1       | 10.2.2.1        | 255.255.255.252 |                 |
+| ASA        | G1/1         | 209.165.200.226 | 255.255.255.248 | N/A             |
+|            | G1/2         | 192.168.1.1     | 255.255.255.0   |                 |
+|            | G1/3         | 192.168.2.1     | 255.255.255.0   |                 |
+| DMZ Server | NIC          | 192.168.2.3     | 255.255.255.0   | 192.168.2.1     |
+| PC-B       | NIC          | 192.168.1.3     | 255.255.255.0   | 192.168.1.1     |
+| PC-C       | NIC          | 172.16.3.3      | 255.255.255.0   | 172.16.3.1      |
+
 ## Network example
 
 ![image](https://github.com/user-attachments/assets/ce914d48-77a9-47cc-89fd-22b8910f3e74)
