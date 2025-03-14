@@ -29,6 +29,7 @@ For this part you need to include a table showing the addressing scheme, Cisco P
 
 - The server farm with the internal server, such as File Server or SQL Server, is located in the London office but the other offices can access them
 - Add the appropriate VLAN (for example for the departments). Avoid using VLAN 1 or 99.
+- Configuration of the wireless is required
 - Redundancy is required wherever is possible and necessary
 
 ## Example of IP table
