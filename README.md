@@ -21,11 +21,12 @@ For this part you need to include a table showing the addressing scheme, Cisco P
 - The `DMZ` is located in the London office and contains the web servers, mail servers and so on. In the `DMZ` the IP class is `172.16.1.0/24`.
 - Each site has to use a specific range of IPs like for example:
   
-  | Site       | IP Range      |
-  |------------|---------------|
-  | London     | 10.50.0.0/24  |
-  | Birmingham | 10.100.0.0/24 |
-  | Manchester | 10.150.0.0/24 |
+  | Site                 | IP Range      |
+  |----------------------|---------------|
+  | London (Server Farm) | 10.0.0.0/24   |
+  | London               | 10.50.0.0/24  |
+  | Birmingham           | 10.100.0.0/24 |
+  | Manchester           | 10.150.0.0/24 |
 
 - The server farm with the internal server, such as File Server or SQL Server, is located in the London office but the other offices can access them
 - Add the appropriate VLAN (for example for the departments). Avoid using VLAN 1 or 99.
