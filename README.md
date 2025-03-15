@@ -54,4 +54,7 @@ For this part you need to include a table showing the addressing scheme, Cisco P
 
 ![image](https://github.com/user-attachments/assets/ce914d48-77a9-47cc-89fd-22b8910f3e74)
 
-<img width="1421" alt="Network Design" src="https://github.com/user-attachments/assets/ede12bb3-ef7d-4471-ba63-2dc0d9bc5c21" />
+
+<img width="1421" alt="Network Design" src="https://github.com/user-attachments/assets/a054f66c-2612-4f22-821e-4f8b049b4cee" />
+
+
